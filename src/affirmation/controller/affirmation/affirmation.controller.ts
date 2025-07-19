@@ -1,7 +1,6 @@
-import { Body, Controller, Get, Inject, Param, Post, Query } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post, Query } from '@nestjs/common';
 import axios, { AxiosResponse } from 'axios';
-import { XMLParser } from 'fast-xml-parser';
-import { AffirmationService } from 'src/affirmation/service/affirmation/affirmation.service';
+import { AffirmationService } from '../../service/affirmation/affirmation.service';
 
 @Controller('affirmation')
 export class AffirmationController {

@@ -1,6 +1,5 @@
 import { Controller, Get, Param } from '@nestjs/common';
-import axios, { AxiosResponse } from 'axios';
-import { BibleService } from 'src/bible/service/bible/bible.service';
+import { BibleService } from '../../service/bible/bible.service';
 
 @Controller('bible')
 export class BibleController {

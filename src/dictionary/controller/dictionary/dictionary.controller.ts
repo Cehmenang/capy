@@ -1,5 +1,5 @@
 import { Controller, Get, Query } from '@nestjs/common';
-import { DictionaryService } from 'src/dictionary/service/dictionary/dictionary.service';
+import { DictionaryService } from '../../service/dictionary/dictionary.service';
 
 @Controller('dictionary')
 export class DictionaryController {

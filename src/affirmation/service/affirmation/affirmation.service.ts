@@ -1,6 +1,6 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Affirmation } from 'src/affirmation/entity/affirmation.entity';
+import { Affirmation } from '../../entity/affirmation.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()

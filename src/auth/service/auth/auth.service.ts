@@ -1,8 +1,8 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
-import { CreateUserDto } from 'src/auth/dtos/user.dto';
-import { Account } from 'src/auth/entity/auth.entity';
+import { CreateUserDto } from '../../dtos/user.dto';
+import { Account } from '../../entity/auth.entity';
 import { Repository } from 'typeorm';
 
 @Injectable()

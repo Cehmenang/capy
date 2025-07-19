@@ -1,6 +1,6 @@
 import { HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Dictionary } from 'src/dictionary/entity/dictionary.entity';
+import { Dictionary } from '../../entity/dictionary.entity';
 import { In, Repository } from 'typeorm';
 import * as path from 'path'
 import * as fs from 'fs'
