@@ -3,7 +3,7 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.enableCors({ origin: "http://mandacapy.vercel.app" })
+  await app.enableCors({ origin: ["https://mandacapy.vercel.app", "http://localhost:5173"], credentials: true })
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
