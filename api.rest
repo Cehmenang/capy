@@ -1,0 +1,46 @@
+GET http://localhost:3000/affirmation
+
+###
+GET http://localhost:3000/bible/passages
+
+###
+GET http://localhost:3000/bible/passage/mat/30
+
+###
+GET http://localhost:3000/affirmation
+
+###
+GET http://localhost:3000/affirmation/getAll
+
+###
+GET http://localhost:3000/affirmation/limit?from=5
+
+###
+POST http://localhost:3000/affirmation/create
+Content-Type: application/json
+
+{
+    "affirmation": "Senyumnya dong biar makin manis"
+}
+
+###
+GET http://localhost:3000/dictionary
+
+###
+GET http://localhost:3000/dictionary/search?keyword=lunch
+
+###
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "username": "Cehworm",
+    "password": "202020"
+}
+
+###
+GET http://localhost:3000/auth/login
+
+###
+GET http://localhost:3000/auth/accounts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IkhBTE8iLCJpYXQiOjE3NTI4NjY4MTAsImV4cCI6MTc1Mjg2NjgyMH0.gYBPNnDnmOiUHTzJ70yaOvuOLGOtPhcLiiBetBDgV_I
